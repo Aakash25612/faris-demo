@@ -1,0 +1,6 @@
+# Holds the Duffel token – never commit it
+flights/config.php
+.env
+.env*.local
+.vercel
+.DS_Store

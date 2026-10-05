@@ -1,0 +1,9 @@
+{
+  "rewrites": [{ "source": "/flights/api.php", "destination": "/api/flights" }],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [{ "key": "X-Content-Type-Options", "value": "nosniff" }]
+    }
+  ]
+}

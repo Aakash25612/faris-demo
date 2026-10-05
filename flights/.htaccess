@@ -1,0 +1,6 @@
+# Never serve the config file, even by mistake
+<Files "config.php">
+    Require all denied
+</Files>
+
+Options -Indexes

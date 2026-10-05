@@ -1,0 +1,6 @@
+# PHP files are for IONOS only. Vercel uses api/flights.js instead.
+flights/api.php
+flights/config.php
+flights/config.example.php
+flights/.htaccess
+src
